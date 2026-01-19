@@ -33,10 +33,10 @@ class MySeleniumTests(StaticLiveServerTestCase):
 
         # Introducimos credenciales correctas
         username_input = self.selenium.find_element(By.NAME, "username")
-        username_input.send_keys('admin')
+        username_input.send_keys('isard')
 
         password_input = self.selenium.find_element(By.NAME, "password")
-        password_input.send_keys('admin123')
+        password_input.send_keys('pirineus')
 
         self.selenium.find_element(
             By.XPATH, '//input[@value="Log in"]'
